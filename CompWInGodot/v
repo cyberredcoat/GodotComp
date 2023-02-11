@@ -1,0 +1,5 @@
+git init
+git add (folder_name) "eg.git add assets
+git commit -m "message"
+git remote add orgin (github repository url)
+git push -u orgin master
