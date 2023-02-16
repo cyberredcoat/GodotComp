@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/mech-keyboard-02-102918.mp3-7a9238e590a9f0ec8afda2820753f10c.mp3str"
+
+[deps]
+
+source_file="res://GodotComp2-main/Art/mech-keyboard-02-102918.mp3"
+dest_files=[ "res://.import/mech-keyboard-02-102918.mp3-7a9238e590a9f0ec8afda2820753f10c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

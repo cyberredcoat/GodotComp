@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/metallic-clang-100473.mp3-82f66af43e06ed3fca418567c6605a4d.mp3str"
+
+[deps]
+
+source_file="res://GodotComp2-main/Art/metallic-clang-100473.mp3"
+dest_files=[ "res://.import/metallic-clang-100473.mp3-82f66af43e06ed3fca418567c6605a4d.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

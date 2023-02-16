@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/explosion-6055.mp3-fbeaa9ce760f1c4cacd646d4647bfdf6.mp3str"
+
+[deps]
+
+source_file="res://GodotComp2-main/Art/explosion-6055.mp3"
+dest_files=[ "res://.import/explosion-6055.mp3-fbeaa9ce760f1c4cacd646d4647bfdf6.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

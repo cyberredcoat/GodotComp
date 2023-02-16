@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://KeypadScreen.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Keypad.gd" type="Script" id=2]
+[ext_resource path="res://Keypad.png" type="Texture" id=3]
+
+[node name="Control" type="Control"]
+anchor_left = 0.38
+anchor_right = 1.0
+anchor_bottom = 0.995
+margin_left = -387.12
+margin_right = -2.0
+margin_bottom = -6.10352e-05
+
+[node name="Keypad" type="Sprite" parent="."]
+position = Vector2( 302, -168 )
+scale = Vector2( 3.48047, 3.48047 )
+texture = ExtResource( 3 )
+
+[node name="ChatBox" parent="." instance=ExtResource( 1 )]
+margin_left = 62.0
+margin_top = 176.0
+margin_right = -441.0
+margin_bottom = -260.0
+script = ExtResource( 2 )

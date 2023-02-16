@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/coin-bag-pickup-drop-94617.mp3-cc6d377e382557c176709d29c45f097c.mp3str"
+
+[deps]
+
+source_file="res://GodotComp2-main/Art/coin-bag-pickup-drop-94617.mp3"
+dest_files=[ "res://.import/coin-bag-pickup-drop-94617.mp3-cc6d377e382557c176709d29c45f097c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

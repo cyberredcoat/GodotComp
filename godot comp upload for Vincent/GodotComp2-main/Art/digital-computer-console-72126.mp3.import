@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/digital-computer-console-72126.mp3-3f01c18a3b4b6f2098add21685bcc836.mp3str"
+
+[deps]
+
+source_file="res://GodotComp2-main/Art/digital-computer-console-72126.mp3"
+dest_files=[ "res://.import/digital-computer-console-72126.mp3-3f01c18a3b4b6f2098add21685bcc836.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

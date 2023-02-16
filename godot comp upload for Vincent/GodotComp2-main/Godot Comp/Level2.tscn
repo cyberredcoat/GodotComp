@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://tileplatform.tscn" type="PackedScene" id=1]
+[ext_resource path="res://checkpoint.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Coins.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Level2BG.tscn" type="PackedScene" id=5]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Area2D" parent="." instance=ExtResource( 2 )]
+position = Vector2( 234, 185 )
+scale = Vector2( 2, 2 )
+levelname = "Level1"
+
+[node name="TileMap" parent="." instance=ExtResource( 1 )]
+cell_size = Vector2( 18, 18 )
+tile_data = PoolIntArray( 196602, 1, 0, 196603, 1, 0, 196604, 1, 0, 196605, 1, 0, 196606, 1, 0, 131073, 1, 0, 131074, 1, 0, 131075, 1, 0, 131128, 1, 0, 262137, 1, 0, 262138, 1, 0, 262142, 1, 0, 262143, 1, 0, 196608, 1, 0, 196609, 1, 0, 196613, 1, 0, 196664, 1, 0, 262200, 1, 0, 327690, 1, 0, 327691, 1, 0, 327692, 1, 0, 327701, 1, 0, 327702, 1, 0, 327703, 1, 0, 327736, 1, 0, 393223, 1, 0, 393224, 1, 0, 393225, 1, 0, 393226, 1, 0, 393234, 1, 0, 393235, 1, 0, 393236, 1, 0, 393237, 1, 0, 393271, 1, 0, 393272, 1, 0, 458758, 1, 0, 458759, 1, 0, 458770, 1, 0, 458807, 1, 0, 589815, 1, 0, 589816, 1, 0, 589817, 1, 0, 589818, 1, 0, 589819, 1, 0, 589820, 1, 0, 524293, 1, 0, 524294, 1, 0, 524323, 1, 0, 524324, 1, 0, 524325, 1, 0, 524326, 1, 0, 524327, 1, 0, 524328, 1, 0, 524342, 1, 0, 524343, 1, 0, 655356, 1, 0, 589827, 1, 0, 589828, 1, 0, 589856, 1, 0, 589857, 1, 0, 589858, 1, 0, 589859, 1, 0, 589864, 1, 0, 589865, 1, 0, 589878, 1, 0, 720893, 1, 0, 655390, 1, 0, 655391, 1, 0, 655392, 1, 0, 655401, 1, 0, 655402, 1, 0, 655414, 1, 0, 786429, 1, 0, 786430, 1, 0, 720907, 1, 0, 720908, 1, 0, 720909, 1, 0, 720910, 1, 0, 720912, 1, 0, 720913, 1, 0, 720923, 1, 0, 720924, 1, 0, 720925, 1, 0, 720926, 1, 0, 720938, 1, 0, 720949, 1, 0, 720950, 1, 0, 851966, 1, 0, 851967, 1, 0, 786441, 1, 0, 786442, 1, 0, 786443, 1, 0, 786448, 1, 0, 786449, 1, 0, 786450, 1, 0, 786451, 1, 0, 786475, 1, 0, 786485, 1, 0, 917503, 1, 0, 851968, 1, 0, 851976, 1, 0, 851987, 1, 0, 851988, 1, 0, 852011, 1, 0, 852012, 1, 0, 852020, 1, 0, 852021, 1, 0, 917504, 1, 0, 917505, 1, 0, 917506, 1, 0, 917511, 1, 0, 917512, 1, 0, 917524, 1, 0, 917525, 1, 0, 917526, 1, 0, 917527, 1, 0, 917528, 1, 0, 917529, 1, 0, 917530, 1, 0, 917548, 1, 0, 917549, 1, 0, 917550, 1, 0, 917551, 1, 0, 917552, 1, 0, 917553, 1, 0, 917554, 1, 0, 917555, 1, 0, 917556, 1, 0, 983042, 1, 0, 983043, 1, 0, 983044, 1, 0, 983045, 1, 0, 983046, 1, 0 )
+
+[node name="checkpoint" parent="." instance=ExtResource( 2 )]
+position = Vector2( 616, 102 )
+scale = Vector2( 0.1, 0.1 )
+
+[node name="Player" parent="." instance=ExtResource( 3 )]
+position = Vector2( 90, 241 )
+scale = Vector2( 0.1, 0.1 )
+
+[node name="Level2BG" parent="." instance=ExtResource( 5 )]
+
+[node name="coins" parent="." instance=ExtResource( 4 )]
+position = Vector2( 135, 219 )
+
+[node name="coins" parent="coins" instance=ExtResource( 4 )]
+position = Vector2( -110, -8 )
+
+[node name="coins2" parent="coins" instance=ExtResource( 4 )]
+position = Vector2( 33, -48 )
+
+[node name="coins3" parent="coins" instance=ExtResource( 4 )]
+position = Vector2( -46, -31 )

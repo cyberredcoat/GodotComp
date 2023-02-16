@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/die-41314.mp3-ab8af4fdf34da9196762e676fd2f0764.mp3str"
+
+[deps]
+
+source_file="res://GodotComp2-main/Art/die-41314.mp3"
+dest_files=[ "res://.import/die-41314.mp3-ab8af4fdf34da9196762e676fd2f0764.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

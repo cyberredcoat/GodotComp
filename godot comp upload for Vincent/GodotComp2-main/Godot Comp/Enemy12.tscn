@@ -1,0 +1,42 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Sprite/Assets/Sprites/characters_packed.png" type="Texture" id=2]
+
+[sub_resource type="AtlasTexture" id=2]
+atlas = ExtResource( 2 )
+region = Rect2( 48, 0, 24, 24 )
+
+[sub_resource type="AtlasTexture" id=3]
+atlas = ExtResource( 2 )
+region = Rect2( 72, 0, 24, 24 )
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ SubResource( 2 ), SubResource( 3 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="GDScript" id=4]
+script/source = "extends AnimatedSprite
+
+var target_pos
+var speed = 100
+
+func _ready():
+	target_pos = get_parent().get_node(\"Player\").get_position()
+
+func _process(delta):
+	var direction = (target_pos - get_position()).normalized()
+	var velocity = direction * speed * delta
+	position += velocity
+"
+
+[node name="Enemy12" type="AnimatedSprite"]
+position = Vector2( 1, 4 )
+scale = Vector2( 3.29167, 2.29167 )
+frames = SubResource( 1 )
+frame = 1
+playing = true
+script = SubResource( 4 )

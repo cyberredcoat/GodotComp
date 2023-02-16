@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Sprite/AI/level 2 scene.png" type="Texture" id=1]
+
+[node name="Level2BG" type="ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2( 700, 425 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxLayer"]
+position = Vector2( 47.9999, 109 )
+scale = Vector2( 1.52286, 1.62941 )
+texture = ExtResource( 1 )

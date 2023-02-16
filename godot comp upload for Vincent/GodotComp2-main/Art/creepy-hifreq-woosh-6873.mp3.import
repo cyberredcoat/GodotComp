@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/creepy-hifreq-woosh-6873.mp3-f086d7a6ccdf94981b7110757676ba05.mp3str"
+
+[deps]
+
+source_file="res://GodotComp2-main/Art/creepy-hifreq-woosh-6873.mp3"
+dest_files=[ "res://.import/creepy-hifreq-woosh-6873.mp3-f086d7a6ccdf94981b7110757676ba05.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

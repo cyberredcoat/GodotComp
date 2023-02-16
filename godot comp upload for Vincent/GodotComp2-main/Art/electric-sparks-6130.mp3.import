@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/electric-sparks-6130.mp3-3c4a2b20e0d6db3d91bc286e4da474aa.mp3str"
+
+[deps]
+
+source_file="res://GodotComp2-main/Art/electric-sparks-6130.mp3"
+dest_files=[ "res://.import/electric-sparks-6130.mp3-3c4a2b20e0d6db3d91bc286e4da474aa.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

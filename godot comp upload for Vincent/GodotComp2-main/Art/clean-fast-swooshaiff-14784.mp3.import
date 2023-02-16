@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/clean-fast-swooshaiff-14784.mp3-19e48f5caa900291a2dbda26f0234b1f.mp3str"
+
+[deps]
+
+source_file="res://GodotComp2-main/Art/clean-fast-swooshaiff-14784.mp3"
+dest_files=[ "res://.import/clean-fast-swooshaiff-14784.mp3-19e48f5caa900291a2dbda26f0234b1f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

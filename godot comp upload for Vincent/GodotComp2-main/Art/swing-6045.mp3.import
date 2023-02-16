@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/swing-6045.mp3-abe271c49799811d9c5a330df81b64e2.mp3str"
+
+[deps]
+
+source_file="res://GodotComp2-main/Art/swing-6045.mp3"
+dest_files=[ "res://.import/swing-6045.mp3-abe271c49799811d9c5a330df81b64e2.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

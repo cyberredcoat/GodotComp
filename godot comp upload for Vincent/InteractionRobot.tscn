@@ -1,0 +1,50 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Sprite/Assets/Sprites/characters_packed.png" type="Texture" id=1]
+[ext_resource path="res://Sprite/Assets/Fonts/PressStart2P-Regular.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 14, 13.5 )
+
+[sub_resource type="AtlasTexture" id=2]
+atlas = ExtResource( 1 )
+region = Rect2( 144, 48, 24, 24 )
+
+[sub_resource type="AtlasTexture" id=3]
+atlas = ExtResource( 1 )
+region = Rect2( 168, 48, 24, 24 )
+
+[sub_resource type="AtlasTexture" id=4]
+atlas = ExtResource( 1 )
+region = Rect2( 192, 48, 24, 24 )
+
+[sub_resource type="SpriteFrames" id=5]
+animations = [ {
+"frames": [ SubResource( 2 ), SubResource( 3 ), SubResource( 4 ) ],
+"loop": true,
+"name": "default",
+"speed": 3.0
+} ]
+
+[sub_resource type="DynamicFont" id=6]
+font_data = ExtResource( 2 )
+
+[node name="Area2D" type="Area2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+scale = Vector2( 1.00457, 1.00928 )
+frames = SubResource( 5 )
+frame = 1
+playing = true
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = -38.0
+margin_top = -29.0
+margin_right = 81.0
+margin_bottom = 21.0
+rect_scale = Vector2( 0.838165, 0.696921 )
+custom_fonts/normal_font = SubResource( 6 )
+text = "Press E"
